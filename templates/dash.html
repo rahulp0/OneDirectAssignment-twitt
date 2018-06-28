@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border=10>
+	<thead>
+	<td><b>Time of tweet</b></td>
+	<td><b>Twitter ID</b></td>
+	<td><b>Tweet Content</b></td>
+	<td><b>URL</b></td>
+    
+     </thead>
+     {% for row in rows %}
+
+
+     <tr>
+     	<td>{{row["createdAt"]}}</td>
+     	<td>{{row["tids"]}}</td>
+     	<td>{{row["textContent"]}}</td><td>
+               <!--{{row["link"]}}-->
+              <a href= "{{row["link"]}}" target="_blank">{{row["link"]}} </a>
+     	</td>
+       
+          
+
+     </tr>
+     {% endfor %}
+</table>
+</body>
+</html>
