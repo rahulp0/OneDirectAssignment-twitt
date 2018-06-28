@@ -13,7 +13,12 @@ You will have to install a few prerequisite packages if you don't have it instal
 The following note is advised to be noted before heading to use it:
 -If you have a perfectly runnable version of Chrome webdriver, you can run it as it is OR, you can comment lines 14-42, login with your login credentials of Twitter.
 -Execute the "run_me.py" file and open the localhost address in port 5000(http://127.0.0.1:5000)
+-The keys and tokens shouldn't be made public
 
+
+I hope the product is useful. 
+Contact me at (rahul.prksh1@gmail.com) for feedback and queries.
+Thank you :)
 
 
 
